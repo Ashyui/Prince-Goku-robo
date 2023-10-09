@@ -25,14 +25,14 @@ if MESSAGE_DUMP == -100 or not str(MESSAGE_DUMP).startswith("-100"):
 
 
 
-class Gojo(Client):
+class goku(Client):
     """Starts the Pyrogram Client on the Bot Token when we do 'python3 -m Powers'"""
 
     def __init__(self):
         # name = Powers
 
         super().__init__(
-            "Gojo_Satoru",
+            "prince_goku",
             bot_token=BOT_TOKEN,
             plugins=dict(root="Powers.plugins", exclude=NO_LOAD),
             api_id=API_ID,
